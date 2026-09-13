@@ -1,0 +1,32 @@
+# Files and directories created by pub.
+**/doc/api/
+.dart_tool/
+.packages
+.pub/
+
+# Conventional directory for build output.
+/build/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.env
+.env.*
+.atom/
+.buildlog/
+.history
+.svn/
+coverage/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+.vscode/
