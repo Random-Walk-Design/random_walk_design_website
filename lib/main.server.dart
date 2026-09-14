@@ -21,7 +21,7 @@ const _siteDescription =
 const _siteUrl = 'https://randomwalk.design/';
 const _socialImageUrl = '${_siteUrl}images/app-portfolio-hero-fastr.jpg';
 const _logoUrl = '${_siteUrl}images/logo_on-dark_small.png';
-const _assetVersion = '2026-09-13.2';
+const _assetVersion = '2026-09-13.3';
 
 void main() {
   // Initializes the server environment with the generated default options.
