@@ -11,10 +11,20 @@ class Home extends StatelessComponent {
       section(classes: 'hero section-wrap', [
         div(classes: 'hero-copy', [
           h1([
-            span(classes: 'heading-line', [.text('> Problem')]),
-            span(classes: 'heading-line', [.text('> Solution')]),
-            span(classes: 'heading-line', [.text('> App')]),
-            span(classes: 'heading-line', [.text('> You')]),
+            ol(classes: 'hero-header-ol', [
+              li([
+                span(classes: 'heading-line', [.text('Problem')]),
+              ]),
+              li([
+                span(classes: 'heading-line', [.text('Solution')]),
+              ]),
+              li([
+                span(classes: 'heading-line', [.text('App')]),
+              ]),
+              li([
+                span(classes: 'heading-line', [.text('You')]),
+              ]),
+            ]),
           ]),
           p(classes: 'lede', [
             .text(

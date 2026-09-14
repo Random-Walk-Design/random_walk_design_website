@@ -145,6 +145,10 @@ p {
   gap: 24px;
 }
 
+.hero-header-ol {
+  margin-left: 0.65em;
+}
+
 .narrow {
   max-width: 850px;
 }
