@@ -21,6 +21,7 @@ const _siteDescription =
 const _siteUrl = 'https://randomwalk.design/';
 const _socialImageUrl = '${_siteUrl}images/app-portfolio-hero-fastr.jpg';
 const _logoUrl = '${_siteUrl}images/logo_on-dark_small.png';
+const _assetVersion = '2026-09-13.2';
 
 void main() {
   // Initializes the server environment with the generated default options.
@@ -159,7 +160,7 @@ void main() {
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap',
         ),
-        link(rel: 'stylesheet', href: '/styles.css'),
+        link(rel: 'stylesheet', href: '/styles.css?v=$_assetVersion'),
       ],
       body: const App(),
     ),

@@ -146,7 +146,8 @@ p {
 }
 
 .hero-header-ol {
-  margin-left: 0.65em;
+  margin: 0;
+  padding-inline-start: 1.1em;
 }
 
 .narrow {
@@ -616,22 +617,131 @@ h3 {
     display: none;
   }
 
+  .nav-shell {
+    gap: 14px;
+  }
+
+  .nav-links {
+    gap: 6px;
+    padding: 5px;
+  }
+
+  .nav-links a {
+    padding: 0 12px;
+  }
+
   .section-wrap {
-    width: min(100% - 24px, 1180px);
-    padding: 56px 0;
+    width: min(100% - 32px, 1180px);
+    padding: 48px 0;
   }
 
   .hero {
     min-height: auto;
-    padding-top: 40px;
+    gap: 28px;
+    padding-top: 34px;
+    padding-bottom: 40px;
+  }
+
+  .hero-copy,
+  .page-hero {
+    gap: 20px;
+  }
+
+  .hero-panel {
+    gap: 14px;
   }
 
   h1 {
     font-size: clamp(2.55rem, 15vw, 4.6rem);
   }
 
+  .heading-line {
+    margin-bottom: 0.18em;
+  }
+
+  .lede {
+    font-size: 1.05rem;
+    line-height: 1.58;
+  }
+
+  .hero-actions {
+    gap: 10px;
+  }
+
   .signal-card.large {
-    min-height: 300px;
+    min-height: 240px;
+    gap: 14px;
+    padding: 24px;
+  }
+
+  .signal-footnote {
+    font-size: 0.8rem;
+  }
+
+  .card-grid,
+  .product-roadmap,
+  .principle-stack {
+    gap: 14px;
+  }
+
+  .product-lane,
+  .feature-card,
+  .principle-card {
+    gap: 16px;
+    padding: 22px;
+  }
+
+  .product-lane {
+    align-items: start;
+  }
+
+  .tag-row {
+    gap: 6px;
+  }
+
+  .cta-section {
+    gap: 18px;
+    padding: 26px 22px;
+    margin-bottom: 40px;
+  }
+
+  .home-cta {
+    margin-top: 24px;
+  }
+
+  .founders-section {
+    padding-top: 44px;
+  }
+
+  .founder-grid {
+    gap: 14px;
+  }
+
+  .founder-card {
+    width: 100%;
+    min-height: auto;
+    gap: 18px;
+    padding: 22px;
+  }
+
+  .founder-avatar {
+    width: min(100%, 220px);
+  }
+
+  .founder-social {
+    width: 100%;
+    padding: 0 12px;
+  }
+
+  .site-footer {
+    width: min(100% - 32px, 1180px);
+    gap: 18px;
+    padding: 28px 0 36px;
+  }
+
+  .footer-links {
+    gap: 14px;
+    flex-wrap: wrap;
   }
 
   .hero-actions,
